@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Budweg
 {
-    class Ansat
+    internal class Employee
     {
-        public string Navn { get; set; }
-        public string Telefonnummer { get; set; }
-        public string Email { get; set; }
-        public string Fødselsdag { get; set; }
-        public string Erfaring { get; set; }
     }
+}

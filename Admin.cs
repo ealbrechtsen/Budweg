@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Budweg
 {
-    public class Admin
+    internal class Admin
     { 
-        public void MainMenu() 
+        public Admin() 
         { 
-            Console.WriteLine("
         }
     }
 }
