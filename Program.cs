@@ -15,7 +15,7 @@
         {
             while (true)
             {
-                Console.Clear(); // Clear the console window
+                Console.Clear(); 
 
                 Console.WriteLine("Hello and welcome to your registration!");
                 Console.WriteLine("1. Employee");
@@ -130,14 +130,13 @@
 
             while (true)
             {
-                Console.WriteLine("1. Check in");
-                Console.WriteLine("2. Check out");
-                Console.WriteLine("3. Evacuation List");
-                Console.WriteLine("4. Employee Competencies");
-                Console.WriteLine("5. Register Employee");
-                Console.WriteLine("6. Register Admin");
-                Console.WriteLine("7. Back to the main menu");
-                Console.Write("Choose an action (1-3): ");
+                Console.WriteLine("1. Evacuation List");
+                Console.WriteLine("2. Employee Competencies");
+                Console.WriteLine("3. Register Employee");
+                Console.WriteLine("4. Register Admin");
+                Console.WriteLine("5. Check in");
+                Console.WriteLine("6. Back to the main menu");
+                Console.Write("Choose an action (1-6): ");
 
                 int adminChoice;
                 if (int.TryParse(Console.ReadLine(), out adminChoice))
